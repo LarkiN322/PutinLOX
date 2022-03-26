@@ -29,7 +29,7 @@ body {
     height: 200px;
     margin: 0 auto;
     border-radius: 50%;
-    user-select: none;
+    -webkit-user-drag: none;
 }
 
 .card-title {
