@@ -98,3 +98,57 @@ section {
         -webkit-transform: rotate(0deg) scale(1)
     }
 }
+a {
+    color:#000;
+    text-decoration: none;
+}
+.badge-privat {
+background-color: #211f20;
+padding: 10px;
+color:white;
+border-radius: 8px;
+box-sizing: border-box;
+display:flex;
+align-items: center;
+box-shadow:#5dba44 0 0 0 8px;
+margin-bottom: 30px;
+}
+
+.badge-privat a {
+    color: #5dba44;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.badge-privat .privat-logo {
+width: 64px;
+height: 64px;
+background-image: url("../img/cdnlogo.com_privat-bank.svg");
+display: inline-block;
+margin-right: 8px;
+}
+
+.badge-mono {
+    background-color: #26272c;
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: #41444d 0 0 0 8px;
+    border-radius: 8px;
+}
+
+.badge-mono a{
+    color: #feffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.badge-mono .mono-logo {
+    width: 64px;
+height: 64px;
+background-image: url("../img/601e05ab5e900.png");
+display: inline-block;
+margin-right: 8px;
+background-size: contain;
+}
